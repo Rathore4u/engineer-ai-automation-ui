@@ -1,0 +1,91 @@
+# IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+out
+dep*.txt
+test*.txt
+/zzz
+
+target/
+target
+allure-results/
+allure-results
+reports/
+reports
+cucumber-reports/
+cucumber-reports
+
+application-local*.yml
+
+# Eclipse
+# > the following should be created by `./gradlew eclipse`
+.classpath
+.project
+# > ignore all eclipse settings by default
+.settings
+
+# Sublime
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Gradle
+.gradle
+build
+
+# Node / Angular
+
+# compiled output
+bin
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+
+# misc
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug.log
+testem.log
+typings
+yarn-error.log
+
+# e2e
+e2e/*.js
+e2e/*.map
+**/*.tgz
+
+# System Files
+.DS_Store
+Thumbs.db
+
+logs
+/.nb-gradle/
+# from aurea-zero-base cloning
+aurea-zero-based.properties
+aurea-zero-based
+.synctracker
+.env
+
+krw_h2_db*
+indexes
+playbook.retry
+krw_h2_tenant*
+.vscode
+.allure
+allure-results
+
+cicd/build-agent/files/config
+
+*.jar
