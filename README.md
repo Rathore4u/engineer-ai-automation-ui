@@ -1,3 +1,12 @@
+Notes before we start about framework:
+1. This is an incremental commits for automation project done.
+2. the major chunk of utils, helpers, driver management is taken from existing project
+3. Further problem specific code is written during this 1 hour of problem and added via commits.
+4. Question 1 & 2 are fully attended. For question 3 - part 2 - Not reporting Failures looks like invalid question,
+As a quality Assurance person, i would never suggest to hide failures. Its doable via iTestListener by just adding @OnFailure do nothing,
+but due to short time given as well as this being against quality assurance aspects, i did not attend it.
+
+
 # About Test Automation Framework
 
 This framework is basically developed and designed to automate application product suite test cases. 
