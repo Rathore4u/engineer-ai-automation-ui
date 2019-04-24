@@ -9,6 +9,7 @@ but due to short time given as well as this being against quality assurance aspe
 hence here i have added only "chromedriver" for OSX, for any other operating system or browser you need to add respective driver, such as for windows Chome one need to add Chromedriver.exe to "resource/*" location
 6. Follow command line execution given below, as that's easiest to execute if you have jdk8 installed, maven & respective driver in given location of project
 7. Many aspects can be more generalized and optimized, but given just 1 hour for this problem, i did what i could. 
+8. CustomListener added for question 3, will need to add just one runner to call this custome listener for no failure reporting purpose.
 
 
 # About Test Automation Framework
